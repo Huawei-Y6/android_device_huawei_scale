@@ -78,7 +78,7 @@ void init_target_properties()
         property_set("persist.radio.multisim.config", "dsds");
         property_set("ro.telephony.ril.config", "simactivation");
         property_set("persist.radio.dont_use_dsd", "true");
-        property_set("ro.multi.rid", "true");
+        property_set("ro.multi.rild", "true");
         property_set("ro.config.hw_showSimName", "true");
         property_set("ro.dual.sim.phone", "true");
         property_set("ro.build.description", "SCL-AL00-user 7.1.1 GRJ90 C432B150 release-keys");
@@ -94,7 +94,7 @@ void init_target_properties()
         property_set("persist.radio.multisim.config", "dsds");
         property_set("ro.telephony.ril.config", "simactivation");
         property_set("persist.radio.dont_use_dsd", "true");
-        property_set("ro.multi.rid", "true");
+        property_set("ro.multi.rild", "true");
         property_set("ro.config.hw_showSimName", "true");
         property_set("ro.dual.sim.phone", "true");
         property_set("ro.build.description", "SCL-CL00-user 7.1.1 GRJ90 C432B150 release-keys");
@@ -142,7 +142,7 @@ void init_target_properties()
         property_set("persist.radio.multisim.config", "dsds");
         property_set("ro.telephony.ril.config", "simactivation");
         property_set("persist.radio.dont_use_dsd", "true");
-        property_set("ro.multi.rid", "true");
+        property_set("ro.multi.rild", "true");
         property_set("ro.config.hw_showSimName", "true");
         property_set("ro.dual.sim.phone", "true");
         property_set("ro.build.description", "SCL-L21-user 7.1.1 GRJ90 C432B150 release-keys");
@@ -158,7 +158,7 @@ void init_target_properties()
         property_set("persist.radio.multisim.config", "dsds");
         property_set("ro.telephony.ril.config", "simactivation");
         property_set("persist.radio.dont_use_dsd", "true");
-        property_set("ro.multi.rid", "true");
+        property_set("ro.multi.rild", "true");
         property_set("ro.config.hw_showSimName", "true");
         property_set("ro.dual.sim.phone", "true");
         property_set("ro.build.description", "SCL-TL00-user 7.1.1 GRJ90 C432B150 release-keys");
@@ -174,7 +174,7 @@ void init_target_properties()
         property_set("persist.radio.multisim.config", "dsds");
         property_set("ro.telephony.ril.config", "simactivation");
         property_set("persist.radio.dont_use_dsd", "true");
-        property_set("ro.multi.rid", "true");
+        property_set("ro.multi.rild", "true");
         property_set("ro.config.hw_showSimName", "true");
         property_set("ro.dual.sim.phone", "true");
         property_set("ro.build.description", "SCL-TL10-user 7.1.1 GRJ90 C432B150 release-keys");
@@ -198,7 +198,7 @@ void init_target_properties()
         property_set("persist.radio.multisim.config", "dsds");
         property_set("ro.telephony.ril.config", "simactivation");
         property_set("persist.radio.dont_use_dsd", "true");
-        property_set("ro.multi.rid", "true");
+        property_set("ro.multi.rild", "true");
         property_set("ro.config.hw_showSimName", "true");
         property_set("ro.dual.sim.phone", "true");
         property_set("ro.build.description", "SCL-U21-user 7.1.1 GRJ90 C432B150 release-keys");
@@ -214,7 +214,7 @@ void init_target_properties()
         property_set("persist.radio.multisim.config", "dsds");
         property_set("ro.telephony.ril.config", "simactivation");
         property_set("persist.radio.dont_use_dsd", "true");
-        property_set("ro.multi.rid", "true");
+        property_set("ro.multi.rild", "true");
         property_set("ro.config.hw_showSimName", "true");
         property_set("ro.dual.sim.phone", "true");
         property_set("ro.build.description", "SCL-U23-user 7.1.1 GRJ90 C432B150 release-keys");
@@ -230,7 +230,7 @@ void init_target_properties()
         property_set("persist.radio.multisim.config", "dsds");
         property_set("ro.telephony.ril.config", "simactivation");
         property_set("persist.radio.dont_use_dsd", "true");
-        property_set("ro.multi.rid", "true");
+        property_set("ro.multi.rild", "true");
         property_set("ro.config.hw_showSimName", "true");
         property_set("ro.dual.sim.phone", "true");
         property_set("ro.build.description", "SCL-U31-user 7.1.1 GRJ90 C432B150 release-keys");
@@ -246,7 +246,7 @@ void init_target_properties()
         property_set("persist.radio.multisim.config", "dsds");
         property_set("ro.telephony.ril.config", "simactivation");
         property_set("persist.radio.dont_use_dsd", "true");
-        property_set("ro.multi.rid", "true");
+        property_set("ro.multi.rild", "true");
         property_set("ro.config.hw_showSimName", "true");
         property_set("ro.dual.sim.phone", "true");
         property_set("ro.build.description", "SCC-U21-user 7.1.1 GRJ90 C432B150 release-keys");
