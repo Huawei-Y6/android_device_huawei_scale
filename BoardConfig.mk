@@ -93,7 +93,7 @@ TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/recovery/twrp.fstab
 RECOVERY_GRAPHICS_FORCE_USE_LINELENGTH := true
 DEVICE_RESOLUTION := 720x1280
 RECOVERY_SDCARD_ON_DATA := true
-TW_USE_TOOLBOX := true
+#TW_USE_TOOLBOX := true
 TW_NEW_ION_HEAP := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_TARGET_USES_QCOM_BSP := true
@@ -108,12 +108,6 @@ endif
 
 # RIL
 BOARD_GLOBAL_CFLAGS += -DUSE_RIL_VERSION_11
-
-# Shims
-TARGET_LD_SHIM_LIBS := \
-    /system/lib/libcutils.so|libshim_cutils.so \
-    /system/vendor/lib/libmmcamera2_imglib_modules.so|libshim_camera.so \
-    /system/vendor/bin/mm-qcamera-daemon|libqcamerasvr-c++.so
 
 # SELinux
 #BOARD_SEPOLICY_DIRS += \

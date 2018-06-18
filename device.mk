@@ -119,7 +119,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     calmodule.cfg \
-    sensors.msm8909 \
+    sensors.scale \
     sensors.native
 
 PRODUCT_COPY_FILES += \
@@ -148,6 +148,12 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # WiFi
 PRODUCT_PACKAGES += \
     libwcnss_qmi
+
+#TwrpBusyboxReq
+ifeq ($(RECOVERY_VARIANT),twrp)
+PRODUCT_PACKAGES += \
+    busybox
+endif
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
