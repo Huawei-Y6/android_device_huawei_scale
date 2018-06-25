@@ -151,8 +151,10 @@ PRODUCT_PACKAGES += \
 
 #TwrpBusyboxReq
 ifeq ($(RECOVERY_VARIANT),twrp)
+ifneq ($(TW_USE_TOOLBOX),true)
 PRODUCT_PACKAGES += \
     busybox
+endif
 endif
 
 PRODUCT_COPY_FILES += \
