@@ -26,3 +26,9 @@ LOCAL_MODULE := libshim_camera
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_SHARED_LIBRARY)
 
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := pthread_equal.cpp
+LOCAL_C_INCLUDES := bionic/libc
+LOCAL_MODULE := libshim_waveletcamera
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_SHARED_LIBRARY)

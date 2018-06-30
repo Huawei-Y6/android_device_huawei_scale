@@ -78,7 +78,8 @@ PRODUCT_PACKAGES += \
 # Compat symbols
 PRODUCT_PACKAGES += \
     libshim_camera \
-    libshim_cutils
+    libshim_cutils \
+    libshim_waveletcamera
 
 # GPS
 PRODUCT_PACKAGES += \
