@@ -109,6 +109,14 @@ endif
 # RIL
 BOARD_GLOBAL_CFLAGS += -DUSE_RIL_VERSION_11
 
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    /system/vendor/bin/hw_test_diag|libshim_cutils.so \
+    /system/vendor/lib/liboeminfo.so|libshim_cutils.so \
+    /system/vendor/lib/libmmcamera2_imglib_modules.so|libshim_camera.so \
+    /system/vendor/bin/mm-qcamera-daemon|libqcamerasvr-c++.so \
+    /system/vendor/lib/libmmcamera_wavelet_lib.so|libshim_waveletcamera.so
+
 # SELinux
 #BOARD_SEPOLICY_DIRS += \
 #    $(VENDOR_PATH)/sepolicy

@@ -26,8 +26,6 @@
 #
 
 on post-fs
-   # Symbols required for huawei blobs
-    export LD_SHIM_LIBS "/system/vendor/lib/libmmcamera_wavelet_lib.so|libshim_waveletcamera.so:/system/vendor/lib/liboemcamera.so|libshim_camera.so:/system/lib/libcutils.so|libshim_cutils.so:/system/bin/mm-qcamera-daemon|libqcamerasvr-c++.so/:system/vendor/lib/libmmqjpeg_codec.so|libboringssl-compat.so:/system/vendor/lib/libflp.so|libshims_flp.so:/system/vendor/lib/libizat_core.so|libshims_get_process_name.so"
 
 on boot
     # charger
