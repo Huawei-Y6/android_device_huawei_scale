@@ -4,7 +4,15 @@
     "target_path": "device/huawei/msm8909-common"
   },
   {
-    "repository": "android_kernel_huawei_msm8909",
-    "target_path": "kernel/huawei/msm8909"
+    "repository": "android_kernel_huawei_msm8916",
+    "target_path": "kernel/huawei/msm8916"
+  },
+  {
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common"
+  },
+  {
+    "repository": "android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat"
   }
 ]
