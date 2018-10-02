@@ -101,6 +101,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/qpnp_pon.kl:system/usr/keylayout/qpnp_pon.kl \
     $(LOCAL_PATH)/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl
 
+# Common Android Go configurations
+$(call inherit-product, build/target/product/go_defaults.mk)
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
