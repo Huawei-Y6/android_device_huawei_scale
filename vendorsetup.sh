@@ -1,1 +1,1 @@
-add_lunch_combo lineage_scale-userdebug
+add_lunch_combo arrow_scale-userdebug
