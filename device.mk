@@ -14,5 +14,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/huawei/cherry/cherry-vendor.mk)
-$(call inherit-product, device/huawei/msm8916-common/msm8916.mk)
+$(call inherit-product, vendor/huawei/scale/scale-vendor.mk)
+$(call inherit-product, device/huawei/msm8909-common/msm8909.mk)

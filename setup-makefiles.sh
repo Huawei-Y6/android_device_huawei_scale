@@ -18,8 +18,8 @@
 set -e
 
 # Required!
-export DEVICE=cherry
-export DEVICE_COMMON=msm8916-common
+export DEVICE=scale
+export DEVICE_COMMON=msm8909-common
 export VENDOR=huawei
 
 ./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@
