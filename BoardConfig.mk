@@ -26,8 +26,5 @@ DEVICE_PATH := device/huawei/cherry
 # Assert
 TARGET_OTA_ASSERT_DEVICE := c8817d,g620s,C8817D,C8817E,G621-TL00,G620S-UL00,G620S-L01,Che1-CL20,Che1-L04
 
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
-
 # inherit from the proprietary version
 include vendor/huawei/cherry/BoardConfigVendor.mk
